@@ -1,2 +1,2 @@
 # swift30days
-30天联系swift30个小项目
+30天练习swift30个小项目
