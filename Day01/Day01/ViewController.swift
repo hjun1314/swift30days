@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  swift30days
+//  Day01
 //
-//  Created by hjun on 2020/8/21.
-//  Copyright © 2020 GD. All rights reserved.
+//  Created by hjun on 2020/8/25.
+//  Copyright © 2020 hjun. All rights reserved.
 //
 
 import UIKit
