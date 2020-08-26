@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Day01
+//  Day02
 //
-//  Created by hjun on 2020/8/25.
+//  Created by hjun on 2020/8/26.
 //  Copyright © 2020 hjun. All rights reserved.
 //
 
