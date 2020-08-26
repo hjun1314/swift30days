@@ -15,6 +15,9 @@
 		F03F3DFE24F62EAF000B88BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F03F3DFC24F62EAF000B88BE /* LaunchScreen.storyboard */; };
 		F03F3E0924F62EAF000B88BE /* Day02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F3E0824F62EAF000B88BE /* Day02Tests.swift */; };
 		F03F3E1424F62EAF000B88BE /* Day02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03F3E1324F62EAF000B88BE /* Day02UITests.swift */; };
+		F03F3E2424F62F09000B88BE /* MFJunYa_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03F3E2124F62F09000B88BE /* MFJunYa_Noncommercial-Regular.ttf */; };
+		F03F3E2524F62F09000B88BE /* MFYueHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03F3E2224F62F09000B88BE /* MFYueHei_Noncommercial-Regular.ttf */; };
+		F03F3E2624F62F09000B88BE /* MF-TongZhen-Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F03F3E2324F62F09000B88BE /* MF-TongZhen-Noncommercial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F03F3E0F24F62EAF000B88BE /* Day02UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day02UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03F3E1324F62EAF000B88BE /* Day02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02UITests.swift; sourceTree = "<group>"; };
 		F03F3E1524F62EAF000B88BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F03F3E2124F62F09000B88BE /* MFJunYa_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJunYa_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		F03F3E2224F62F09000B88BE /* MFYueHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFYueHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		F03F3E2324F62F09000B88BE /* MF-TongZhen-Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MF-TongZhen-Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				F03F3DFA24F62EAF000B88BE /* Assets.xcassets */,
 				F03F3DFC24F62EAF000B88BE /* LaunchScreen.storyboard */,
 				F03F3DFF24F62EAF000B88BE /* Info.plist */,
+				F03F3E2324F62F09000B88BE /* MF-TongZhen-Noncommercial-Regular.ttf */,
+				F03F3E2124F62F09000B88BE /* MFJunYa_Noncommercial-Regular.ttf */,
+				F03F3E2224F62F09000B88BE /* MFYueHei_Noncommercial-Regular.ttf */,
 			);
 			path = Day02;
 			sourceTree = "<group>";
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03F3E2524F62F09000B88BE /* MFYueHei_Noncommercial-Regular.ttf in Resources */,
+				F03F3E2424F62F09000B88BE /* MFJunYa_Noncommercial-Regular.ttf in Resources */,
 				F03F3DFE24F62EAF000B88BE /* LaunchScreen.storyboard in Resources */,
 				F03F3DFB24F62EAF000B88BE /* Assets.xcassets in Resources */,
 				F03F3DF924F62EAD000B88BE /* Main.storyboard in Resources */,
+				F03F3E2624F62F09000B88BE /* MF-TongZhen-Noncommercial-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85UUFC9YM9;
 				INFOPLIST_FILE = Day02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85UUFC9YM9;
 				INFOPLIST_FILE = Day02/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
